@@ -22,6 +22,27 @@
       top:25%;
       left:30%;
     }
+    .btn-push2{
+      position:absolute;
+      top:70%;
+      left:30%;
+    }
+    .btn-border{
+      position:absolute;
+      top:5%;
+      left:40%;
+    }
+    .btn-border2{
+      position:absolute;
+      top:5%;
+      left:60%;
+    }
+    .btn-gradation{
+      position:absolute;
+      top:5%;
+      left:20%;
+    }
+
 .btn-push {
   display: inline-block;
   max-width: 500px;
@@ -35,20 +56,107 @@
   border-radius: 4px;
   border-bottom: 4px solid #017a32;
 }
-
 .btn-push:active {
     transform: translateY(4px);
     border-bottom: none;
 }
+
+.btn-push2 {
+  display: inline-block;
+  max-width: 500px;
+  text-align: left;
+  background-color: #03ab47;
+  font-size: 55px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 70px 102px;
+  border-radius: 4px;
+  border-bottom: 4px solid #017a32;
+}
+.btn-push:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.btn-border {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  border: 2px solid #ffffff;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 4px;
+  transition: .4s;
+}
+.btn-border:hover {
+  background-color: #5cbeff;
+  border-color: #5ce1ff;
+  color: #FFF;
+}
+
+.btn-border2 {
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  border: 2px solid #ffffff;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 4px;
+  transition: .4s;
+}
+.btn-border2:hover {
+  background-color: #5cbeff;
+  border-color: #5ce1ff;
+  color: #FFF;
+}
+
+.btn-gradation {
+  display: inline-block;
+  width: 180px;
+  text-align: center;
+  font-size: 24px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 21.5px 36px;
+  border-radius: 4px;
+  background-image: linear-gradient(-90deg, #33ebff, #0047fa);
+  transition: .5s;
+  background-size: 200%;
+}
+.btn-gradation:hover {
+  background-position: right center;
+}
+
+
   </style>
 </head>
 <body>
   <h1>ティロリの森🍟</h1>
   <p>管理人近況はこちら↓</p>
+  <div class="container">
+    <a href="#" class="btn-gradation">トップページ</a>
+  </div>
+  <div class="container">
+    <a href="#" class="btn-border">コメントページ</a>
+  </div>
+  <div class="container">
+    <a href="#" class="btn-border2">ものおきページ</a>
+  </div>
   <a class="twitter-timeline" data-height="500" data-width="225" data-theme="dark" href="https://twitter.com/Neun_crep23">Tweets by Neun_crep23</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<div class="container">
-<a href="minecraft.html" class="btn-push">Minecraft</a>
-</div>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <div class="container">
+    <a href="minecraft.html" class="btn-push">Minecraft</a>
+  </div>
+  <div class="container">
+    <a href="kyoupuro.html" class="btn-push2">競技プログラミング</a>
+  </div>
 </body>
 </html>
