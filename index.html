@@ -4,6 +4,7 @@
   <title>ティロリの森</title>
   <meta name"description" conetent="Neunのホームページ。"/>
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
+<!–ここからがCSS–>
   <style>
     h1{
       color:#00f7ff;
@@ -27,20 +28,25 @@
       top:69%;
       left:30%;
     }
+    .btn-push3{
+      position:absolute;
+      top:113%;
+      left:757.5px;
+    }
     .btn-border{
       position:absolute;
-      top:5%;
-      left:40%;
+      top:30.5px;
+      left:505px;
     }
     .btn-border2{
       position:absolute;
-      top:5%;
+      top:30.5px;
       left:60%;
     }
     .btn-gradation{
       position:absolute;
-      top:5%;
-      left:20%;
+      top:30.5px;
+      left:252.5px;
     }
 
 .btn-push {
@@ -54,7 +60,7 @@
   font-weight: bold;
   padding: 50px 150px;
   border-radius: 4px;
-  border-bottom: 4px solid #017a32;
+  border-bottom: 8px solid #017a32;
 }
 .btn-push:active {
     transform: translateY(4px);
@@ -72,9 +78,27 @@
   font-weight: bold;
   padding: 70px 102px;
   border-radius: 4px;
-  border-bottom: 4px solid #adadad;
+  border-bottom: 8px solid #adadad;
 }
 .btn-push2:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.btn-push3 {
+  display: inline-block;
+  max-width: 500px;
+  text-align: left;
+  background-color: #fc1919;
+  font-size: 80px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 50px 175px;
+  border-radius: 4px;
+  border-bottom: 8px solid #bd1515;
+}
+.btn-push3:active {
     transform: translateY(4px);
     border-bottom: none;
 }
@@ -137,6 +161,7 @@
 
 
   </style>
+<!–ここまでがCSS–>
 </head>
 <body>
   <h1>ティロリの森🍟</h1>
@@ -157,6 +182,9 @@
   </div>
   <div class="container">
     <a href="kyoupuro.html" class="btn-push2">競技プログラミング</a>
+  </div>
+  <div class="container">
+    <a href="kyoupuro.html" class="btn-push3">Youtube</a>
   </div>
 </body>
 </html>
