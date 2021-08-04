@@ -16,9 +16,7 @@
     body{
       background-color:#00085c;
     }
-    body {
-      -webkit-tent-size-adjust:100%;
-    }
+    
     .btn-push{
       position:absolute;
       top:300px;
