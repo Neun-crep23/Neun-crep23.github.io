@@ -17,7 +17,7 @@
       background-color:#00085c;
     }
     body {
-      -webkit-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 50%;
     }
     .btn-push{
       position:absolute;
