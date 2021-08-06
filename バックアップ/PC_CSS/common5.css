@@ -1,0 +1,156 @@
+    html{ 
+      overflow-y:scroll; 
+    }
+    h1{
+      color:#00c8e3;
+    }
+    h2{
+      color:#ad4242;
+    }
+    h3{
+      color:#ffffff;
+    }
+    p{
+      color:#ffffff;
+    }
+    p {
+      font-size:middle;
+    }  
+    a {
+      color: #40ff46;
+    }
+　  body{
+      font-family:"MS 明朝","monospace","sans-serif";
+　　}
+    body{
+      background-color:#00085c;
+    }
+    .btn-border2{
+      position:absolute;
+      top:30.5px;
+      left:505px;
+    }
+    .btn-border{
+      position:absolute;
+      top:30.5px;
+      left:758px;
+    }
+    .btn-border3{
+      position:absolute;
+      top:30.5px;
+      left:1050px;
+    }
+    .btn-gradation{
+      position:absolute;
+      top:30.5px;
+      left:252.5px;
+    }
+
+
+    .library{
+      position:absolute;
+      top:220px;
+      left:190px;
+    }
+   .library2{
+      position:absolute;
+      top:580px;
+      left:150px;
+    }
+   .library3{
+      position:absolute;
+      top:650px;
+      left:230px;
+    }
+   .library4{
+      position:absolute;
+      top:410px;
+      left:200px;
+    }
+    .library4>p{
+      line-height:6pt;
+    }
+    .library3>h2{
+      margin-bottom:-15px;
+    }
+    .library3>p{
+      line-height:6pt;
+    }
+
+
+
+.btn-border {
+  display: inline-block;
+  max-width: 2000px;
+  text-align: left;
+  border: 2px solid #ffffff;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 4px;
+  transition: .4s;
+}
+.btn-border:hover {
+  background-color: #5cbeff;
+  border-color: #5ce1ff;
+  color: #FFF;
+}
+
+.btn-border2 {
+  display: inline-block;
+  max-width: 2000px;
+  text-align: left;
+  border: 2px solid #ffffff;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 4px;
+  transition: .4s;
+}
+.btn-border2:hover {
+  background-color: #5cbeff;
+  border-color: #5ce1ff;
+  color: #FFF;
+}
+
+.btn-border3 {
+  display: inline-block;
+  max-width: 2000px;
+  text-align: left;
+  border: 2px solid #ffffff;
+  font-size: 24px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px 30px;
+  border-radius: 4px;
+  transition: .4s;
+}
+.btn-border3:hover {
+  background-color: #ff0000;
+  border-color: #ff5252;
+  color: #ffdd00;
+}
+
+.btn-gradation {
+  display: inline-block;
+  max-width: 2000px;
+  text-align: left;
+  border: 2px solid #ffffff;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px 52px;
+  border-radius: 4px;
+  transition: .4s;
+}
+.btn-gradation:hover {
+  background-color: #5cbeff;
+  border-color: #5ce1ff;
+  color: #FFF;
+}
