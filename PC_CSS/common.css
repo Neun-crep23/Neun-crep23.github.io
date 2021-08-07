@@ -5,7 +5,7 @@
 
     .all{
       width:100%;
-      max-width:1280px;
+      max-width:980px;
     }
 
     h1{
@@ -83,7 +83,7 @@
     .sen{
       position:relative;
       top:-440px;
-      left:115px;
+      left:230px;
       height:2px;
       width:1000px;
     }
@@ -114,7 +114,7 @@
     .sen10{
       position:relative;
       top:-1290px;
-      left:115px;
+      left:230px;
       height:2px;
       width:1000px;
     }
