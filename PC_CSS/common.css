@@ -2,27 +2,24 @@
     html{ 
       overflow-y:scroll; 
     }
-
-    .all{
-      width:100%;
-      max-width:980px;
-      margin:auto;
-    }
-
     h1{
       color:#00c8e3;
+      display: block;
+      margin:auto;
     }
     p{
       color:#ffffff;
-    }
-    p {
       font-size:medium;
+      display: block;
+      margin:auto;
     }
 　  body{
       font-family:"MS 明朝","monospace","sans-serif";
-　　}
+    }
     body{
       background-color:#00085c;
+      display: block;
+      margin:auto;
     }
     .news{
       position:relative;top:-690px;left:260px;
@@ -84,7 +81,7 @@
     .sen{
       position:relative;
       top:-440px;
-      left:230px;
+      left:115px;
       height:2px;
       width:1000px;
     }
@@ -115,7 +112,7 @@
     .sen10{
       position:relative;
       top:-1290px;
-      left:230px;
+      left:115px;
       height:2px;
       width:1000px;
     }
@@ -146,32 +143,42 @@
     .minecraft{
       position:relative;
       top:-1460px;
-      left:320px;
+      left:-180px;
       width:245px;
+      display: block;
+      margin:auto;
     }
     .kyoupuro{
       position:relative;
       top:-1540px;
-      left:620px;
+      left:120px;
       width:245px;
+      display: block;
+      margin:auto;
     }
     .youtube{
       position:relative;
       top:-1605px;
-      left:920px;
+      left:420px;
       width:245px;
+      display: block;
+      margin:auto;
     }
     .library{
       position:relative;
       top:-2310px;
-      left:320px;
+      left:-180px;
       width:245px;
+      display: block;
+      margin:auto;
     }
     .law{
       position:relative;
       top:-2374px;
-      left:620px;
+      left:120px;
       width:245px;
+      display: block;
+      margin:auto;
     }
     .minecraft>p{
       line-height:12pt;
@@ -191,7 +198,7 @@
 
 .btn-push {
   display: inline-block;
-  max-width: 100%;
+  max-width:100%;
   text-align: left;
   background-color:#1ca62b;
   font-size: 24px;
@@ -353,4 +360,10 @@
 .btn-gradation:hover {
   background-position: right center;
 }
+    body{
+      width:1250px;
+      display: block;
+      margin:auto;
+      border: 2px solid #fff;
+    }
 }
