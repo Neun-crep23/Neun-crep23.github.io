@@ -1,73 +1,96 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <link rel="stylesheet" href="PC_CSS/common.css">
-  <link rel="stylesheet" href="iPhone_CSS/common.css">
-  <title>ティロリの森</title>
-  <meta name"description" content="Neunのホームページです。管理人のMinecraftやYoutube、競技プログラミング活動、オススメの本や法学について書いてあります。"/>
-  <link rel="icon" type="image/x-icon" href="./favicon.ico">
-  <script Language="JavaScript"><!--resizeTo(1920,1080);// --></script>
-  </script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
+<title>Neun's secret base</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Neunのホームページ">
+<meta name="keywords" content="Neun伯爵">
+
+<script type="text/javascript">
+function gate(){
+   // ▼ユーザの入力を求める
+   var UserInput = prompt("パスワードを入力して下さい:","");
+   // ▼入力内容をチェック
+   if( /\W+/g.test(UserInput) ) {
+      // ▼半角英数字以外の文字が存在したらエラー
+      alert("半角英数字のみを入力して下さい。");
+   }
+   // ▼キャンセルをチェック
+   else if( UserInput != null ) {
+      // ▼入力内容からファイル名を生成して移動
+      location.href = UserInput + ".html";
+   }
+}
+</script>
+
+<link rel="stylesheet" href="css/style.css">
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
+
 <body>
-<div id="all">
-  <div class="tiro">
-      <h1>ティロリの森🍟</h1>
-  </div>
-  <p>管理人近況はこちら↓</p>
-  <a class="twitter-timeline"data-height="500" data-width="225" data-theme="dark" href="https://twitter.com/Neun_crep23">Tweets by Neun_crep23</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <div class="container">
-    <a href="https://neun-crep23.github.io/" class="btn-gradation">トップページ</a>
-  </div>
-  <div class="container">
-    <a href="#" class="btn-border">コメントページ</a>
-    <a href="#" class="btn-border2">ものおきページ</a>
-    <a href="potato.mp3" class="btn-border3">ティロリ♪</a>
-  </div>
-  <div class="news">
-    <p>≪お知らせ≫　現在、当ホームページはPC専用です。</p>
-  </div>
-  <div class="main">
-    <h1>【メインコンテンツ】</h1>
-  </div>
-  <hr class="sen"color="#000fb5">
-  <div class="sen2" style="background-color:#000fb5;"></div>
-  <div class="sen3" style="background-color:#000fb5;"></div>
-  <div class="sen4" style="background-color:#000fb5;"></div>
-  <div class="sen5" style="background-color:#000fb5;"></div>
-  <div class="container">
-    <a href="minecraft.html" class="btn-push">Minecraft</a>
-    <a href="kyoupuro.html" class="btn-push2">競技プログラミング</a>
-    <a href="youtube.html" class="btn-push3">Youtube</a>
-  </div>
-  <div class="minecraft">
-    <p>WorldMinecratというサイトで、自作ワールドを配布しています。<br>ジャンルは謎解き脱出とアスレチックです。</p>
-  </div>
-  <div class="kyoupuro">
-    <p>AtoCoderというサイトで、競技プログラミングをしています。<br>言語はC++です。</p>
-  </div>
-  <div class="youtube">
-     <p>Youtubeというサイトで、動画を投稿しています。<br>ジャンルはゆっくり実況です。</p>
-  </div>
-  <div class="sab">
-    <h1>【サブコンテンツ】</h1>
-  </div>
-  <hr class="sen10"color="#000fb5">
-  <div class="sen12" style="background-color:#000fb5;"></div>
-  <div class="sen13" style="background-color:#000fb5;"></div>
-  <div class="sen14" style="background-color:#000fb5;"></div>
-  <div class="sen15" style="background-color:#000fb5;"></div>
-  <div class="container">
-    <a href="library.html" class="btn-push4">Neunの本棚</a>
-    <a href="law.html" class="btn-push5">法学-Law</a>
-  </div>
-  <div class="library">
-    <p>管理人が感銘を受けた本をいくつか紹介してます。<br>ジャンルは様々です。</p>
-  </div>
-  <div class="law">
-    <p>管理人の法学ページです。<br>法学部生である管理人オススメの法学本を紹介してます。<br>初学者向けの親書もあります。</p>
-  </div>
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Neun's secret base"></a></h1>
+<aside id="mainimg"><img src="images/yakei.jpg" alt=""></aside>
+</header>
+
+<nav id="menubar">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="bookshelf.html">Bookshelf</a></li>
+<li><a href="link.html">未定</a></li>
+</ul>
+</nav>
+
+<div id="contents">
+
+<section id="new">
+<h2>更新情報・お知らせ</h2>
+<dl>
+<dt>2022/11/08</dt>
+<dd>haloWorld　ホームページ制作開始日です。</dd>
+</dl>
+</section>
+
+<section>
+
+<h2>ホームページのご利用前に必ずお読み下さい</h2>
+
+<h3>ホームページのご案内</h3>
+<p>このホームページは、<a href="https://twitter.com/Neun_crep23">Twitter</a>にて活動しているNeun伯爵の『秘密基地』です。いわゆるポートフォリオのようなものですが、あくまでも私的利用を目的としている為、至らないところが多々あると思いますが、ご了承ください。
+<br>Aboutでは簡単な自己紹介を。BookShelfでは、小説や簡単な法学書の紹介をしています。
+</p>
+<p><span class="color1">■<strong>誹謗中傷については、法に基づいて対応します。</strong></span><br>
+誹謗中傷は、刑法において定められる<a href="https://ja.wikibooks.org/wiki/%E5%88%91%E6%B3%95%E7%AC%AC230%E6%9D%A1">名誉棄損罪(230条)</a>や<a href="https://ja.wikibooks.org/wiki/%E5%88%91%E6%B3%95%E7%AC%AC231%E6%9D%A1">侮辱罪(231条)</a>などで厳しく罰せられる行為です。具体的な事実を問わず、誹謗及び中傷によってどちらかの罪に該当し罰せられるので注意して下さい。また、民法<a href="https://ja.wikibooks.org/wiki/%E6%B0%91%E6%B3%95%E7%AC%AC709%E6%9D%A1">709条</a>や<a href="https://ja.wikibooks.org/wiki/%E6%B0%91%E6%B3%95%E7%AC%AC710%E6%9D%A1">710条</a>における不法行為の対象であり、損害賠償責任を負います。</p>
+<p><span class="color1">■<strong>個人情報について</strong></span><br>
+悪用しないでください……。(´・ω・｀)
+</p>
+
+<h2>経歴等の中の人の詳しい情報は</h2>
+<input type="button" value="こちらをご覧ください" onclick="gate();">
+<p>※パスワードが必要です。</p>
+
+</section>
+
 </div>
+<!--/contents-->
+
+<footer>
+<small>Copyright&copy; <a href="index.html">Neun's secret base</a> All Rights Reserved.</small>
+<span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+</footer>
+
+</div>
+<!--/container-->
+
 </body>
 </html>
